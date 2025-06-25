@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/Lexend-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/Lexend-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  src: url('/fonts/Lexend-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+:root {
+  font-family: Lexend, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
