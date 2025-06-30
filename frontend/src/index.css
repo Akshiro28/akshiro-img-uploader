@@ -19,5 +19,20 @@
 }
 
 :root {
-  font-family: Lexend, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Lexend, sans-serif;
+
+  --background: rgb(8, 9, 10);
+  --white-08: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background: var(--background);
+  outline: none;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+* {
+  color: #ffffff;
 }
